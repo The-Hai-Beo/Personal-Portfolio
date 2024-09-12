@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-image{
+    display: flex;
+    max-height: 60px; 
+    margin-right: 10px;
+    margin-top: 10px;
+    }
+
+.navbar{
+    margin-top: 15px;
+}
+.nav-link {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    padding: 10px 20px;
+
+    color: #333;
+}
+.btn {
+background-color: #fd6f00;
+  border: 2px solid #fd6f00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  }
+.btn:hover {
+    background-color: #984300;
+    color: white;
+    border-color: #984300;
+  }
+  .content {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: justify;
+
+  }
+  .row{
+    margin-top: 50px;
+  }
+  .image-column img {
+    width: 100%; /* Đảm bảo ảnh vừa với cột */
+    height: auto;
+    margin-bottom: 50px;
+  }
+.orange-content{
+    color: #fd6f00;
+    font-size: 30px;
+}
+.SBF-font{
+    font-size: 20px;
+}
+.BBF-font{
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+}
+.BBF-font-2{
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    margin-left: 140px;
+}
+* {box-sizing:border-box}
+progress{
+    width: 100%;
+    background-color: transparent;
+    color: #fd6f00;
+    
+}
+/* Container for skill bars */
+
+ .progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Khoảng cách giữa các thanh */
+}
+.progress-bar {
+    height: 30px;
+    background-color: #fd6f00;
+    text-align: center;
+    line-height: 30px; /* Căn giữa văn bản dọc theo thanh tiến trình */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 0 0 5px;
+}
