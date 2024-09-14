@@ -2,7 +2,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    margin-bottom: 80px;
+    padding-bottom: 100px;
+    
 }
 .navbar-image{
     display: flex;
@@ -120,8 +121,7 @@ progress{
     height: 30px;
     background-color: #fd6f00;
     text-align: center;
-    line-height: 30px; /
-    color: white;
+    line-height: 30px; 
     font-weight: bold;
     border-radius: 5px 0 0 5px;
 }
@@ -192,8 +192,9 @@ progress{
     word-wrap: break-word;  
 }
 .images-custom {
+    border-radius: 50px;
     max-width: 100%; 
-    max-height: 200px; 
+    max-height: 250px; 
     object-fit: cover;
   
 }
@@ -229,15 +230,17 @@ progress{
     bottom: -100px; /* Cách slider 100px */
     left: 0;
     right: 0;
+    
     margin-left: auto;
     margin-right: auto;
-    width: max-content; /* Giữ chỉ đủ rộng cho các indicator */
+    width: max-content; 
+
 }
 
 .carousel-indicators li {
     width: 40px;
     height: 10px;
-    background-color: gray;
+    background-color:  #e9e9e9;
     border-radius: 10px;
 }
 
@@ -245,7 +248,7 @@ progress{
     width: 40px;
     height: 10px;
     border-radius: 10px;
-    background-color: orange;
+    background-color: #fd6f00;
 }
 .message {
     letter-spacing: 1px;
@@ -274,3 +277,21 @@ progress{
     font-weight: bold;
 }
 
+.col-contact{
+    margin-top: 150px;
+    align-items: center;
+}
+.container {
+    max-width: 100%; }
+
+.row-contact {
+margin-left: 270px;
+}
+.form-control {
+    height: 45px;
+    background-color:  #e9e9e9;
+}
+.btn-orange-custom{
+    width: 130px;
+
+}
